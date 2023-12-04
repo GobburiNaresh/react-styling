@@ -6,7 +6,7 @@ import Button from './Button';
 import classes from './Error.module.css';
 
 const Backdrop = (props) => {
-    return <div className={classes.backdrop} onConfirm={props.onConfirm}/>
+    return <div className={classes.backdrop} onClick={props.onConfirm}/>
 }
 const ModelOverlay = (props) => {
     return (
